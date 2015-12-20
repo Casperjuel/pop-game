@@ -158,6 +158,10 @@ button.result {
   width: 50%;
   margin: auto;
   height: 150px;
+   @include media($phone) {
+    width: 90%!important;
+
+  }
 }
 
 .start-settings {
@@ -185,6 +189,10 @@ button.result {
   height: auto;
   overflow: hidden;
   clear: both;
+   @include media($phone) {
+    width: 90%!important;
+
+  }
 
   input, button {
     display: block;
@@ -192,6 +200,10 @@ button.result {
     height: 50px;
     float: left;
     width: 50%;
+  @include media($phone) {
+    width: 100%!important;
+
+  }
   }
 }
 .form-text {
@@ -201,6 +213,10 @@ button.result {
   color: green;
   float: left;
   width: 50%;
+  @include media($phone) {
+    width: 100%;
+
+  }
 }
 .count {
   padding: 10px 0;
