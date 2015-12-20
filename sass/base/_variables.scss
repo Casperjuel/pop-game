@@ -1,0 +1,41 @@
+// Variables
+// ------------------------
+
+$white: lighten(#E6DED3,14%);
+$black: #222;
+$grey: #888;
+
+
+$blue: #3cb7c2;
+$dblue: #0F0038;
+$red: #E51D4D;
+$dred: #6c171f;
+$yellow: #FFCC12;
+$pink: #ff8496;
+$green: #2BCC65;
+$navy-dark:#062433;
+$navy:#051A27;
+
+$primary:$blue;
+
+
+$base-background-color: $white;
+$base-font-color: #333;
+
+$base-font-family: helvetica;
+$base-font-size: 1em;
+$base-line-height: 1.5;
+
+$base-border-radius: 1px;
+
+$base-heading-line-height: 1.25;
+$base-heading-h1: $base-font-size * 2.25;
+$base-heading-h2: $base-font-size * 2;
+$base-heading-h3: $base-font-size * 1.75;
+$base-heading-h4: $base-font-size * 1.5;
+$base-heading-h5: $base-font-size * 1.25;
+$base-heading-h6: $base-font-size;
+
+
+$phone: max-width $small 4;
+$tablet: max-width $medium 8;
