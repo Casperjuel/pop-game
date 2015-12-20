@@ -64,6 +64,9 @@ $('.true button').click(function() {
 
 $('.start-btn').click(function() {
     $('body').addClass('start');
+    randomQ();
+
+
 })
 
 $('.add-name-btn').click(function() {
